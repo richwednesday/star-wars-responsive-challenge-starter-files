@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="description" content="Star Wars site based on Thinkful Responsive Design Challenge">
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
@@ -14,9 +14,68 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/float-grid.css" />
+  <link rel="stylesheet" href="styles/main.css" />
 
 </head>
 <body>
+	<header class="header">
+	  <div class="row">
+	    <div class="col-12">
+				<h1>Star Wars Characters</h1>
+				<h4>Incomplete list</h4>
+			</div>
+		</div>
+	</header>
 
+	<main>
+		<div class="row">
+			<div class="col-4">
+				<div class="card">
+					<img src="images/rey_square.png" class="card-image">
+					<h3>Ray</h3>
+					<p>Protagonist, from Tatooine</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/finn_square.png" class="card-image">
+					<h3>Finn</h3>
+					<p>Storm Trooper, befriends Ray</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/kylo_square.png" class="card-image">
+					<h3>Kylo</h3>
+					<p>Main villian, or is he?</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<div class="card">
+					<img src="images/poe_square.png" class="card-image">
+					<h3>Poe</h3>
+					<p>Neutral Pilot</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/chewbacca_square.png" class="card-image">
+					<h3>Chewbacca</h3>
+					<p>A great first mate</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/yoda_square.png" class="card-image">
+					<h3>Yoda</h3>
+					<p>Wise old Jedi master</p>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
